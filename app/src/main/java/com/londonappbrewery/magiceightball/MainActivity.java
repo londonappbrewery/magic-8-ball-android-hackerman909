@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Random random = new Random();
                 Integer num = random.nextInt(5);
-                Log.d("Picked",num.toString());
+
+                  Log.d("Picked",num.toString());
                 ball.setImageResource(arr[num]);
             }
         });
